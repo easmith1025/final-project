@@ -1,0 +1,94 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:wght@300;400;700;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, span {
+  text-align: center;
+  line-height: 1.25;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.purple {
+  color: #6415FF;
+}
+
+
+.container__padding {
+  padding: 32px;
+}
+
+/*navigation bar*/
+
+.container__logo {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.img__logo {
+  width: 40px;
+  height: 40 px;
+  margin: 0 12px 0 0;
+}
+
+.treact {
+font-size: 24px;
+color: black;
+font-weight: bolder;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.nav__link {
+  padding: 0 0 4px;
+  margin: 0 24px;
+  font-size: 14px;
+  color: black;
+  display:flex;
+  white-space: nowrap;
+}
+
+
+.nav__link--login {
+  padding: 0 0 4px;
+  margin: 0 24px 0 48px;
+  font-size: 14px;
+  color: black;
+}
+
+.nav__link--button {
+  padding: 12px 32px;
+  font-size: 14px;
+  color: white;
+  background-color: #6415FF;
+  border-radius: 100px;
+  white-space: nowrap;
+}
