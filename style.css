@@ -123,18 +123,35 @@ h1 {
   width: 100%;
   align-items: center;
   justify-content: start;
+  transition: all 800ms ease;
 }
 
 form {
-  border: 2px solid lightslategray;
+  border: 2px solid lightgray;
   display: flex;
   border-radius: 20px;
   padding-left: 15px;
 }
 
+form:hover {
+  border: 2px solid gray;
+}
+
+form:active,
+form:focus-within {
+  border: 2px solid #6415FF;
+}
+
 .input {
   border-style: none;
-  padding: 20px 32px 20px 20px;
+  padding: 20px 30px 20px 20px;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+}
+
+.input:active {
+  outline: none;
 }
 
 .form__button {
