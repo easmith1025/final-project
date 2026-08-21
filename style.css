@@ -22,7 +22,7 @@ a {
 
 
 
-.purple {
+.purple, .features__subtitle {
   color: #6415FF;
 }
 
@@ -179,6 +179,7 @@ form:focus-within {
   color: lightlategray;
   width: 421.66px;
   height: 29.64px;
+  display: flex;
 
 }
 
@@ -191,5 +192,79 @@ form:focus-within {
  max-width: 100%;
  height: auto;
  display: block;
- 
+}
+
+/*features*/
+
+.features__container {
+  padding: 96px 0;
+  margin: 0 32px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features__subtitle {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0 0;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+.hanging__indent {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0 0;
+  width: 576px;
+  height: 58.5px;
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
+.feature__container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 16px;
+  padding: 32px 8px;
+  width: calc(100% / 3);
+  max-width: 310px; 
+}
+
+.feature__container--left {
+  width: 40%;
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.feature__img {
+  padding: 20px;
+  width: 66px;
+  height: 66px;
+}
+
+.img__icon {
+  width: 24px;
+  height: 24px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.span__title {
+  display:flex;
+  flex-direction: column;
+  margin: 8px 0 0 16px;
+  font-size: 24px;
+  font-width: bolder;
+}
+
+.feature__description {
+  margin: 16px 0 0;
 }
