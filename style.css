@@ -282,3 +282,48 @@ h2 {
   margin: 16px 0 0;
   width: 210px;
 }
+
+/* Quality work */
+
+.quality__subheading {
+  display:flex;
+  align-items: flex-start;
+  justify-content: left;
+  margin: 16px 0 0;
+  font-size: 24px;
+  color:#6415FF;
+}
+
+.quality__button {
+  color: white;
+  background-color:#6415FF;
+  white-space: nowrap;
+  border-radius: 20px;
+  padding: 8px 8px;
+  margin: 8px 8px 8px 0;
+  width: 142px;
+}
+
+.columns {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 96px 0;
+}
+
+.left__column {
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.right__column {
+align-items: center;
+justify-content: center;
+}
+
+.quality__img {
+  width: 409.48px;
+  height: 263.34px;
+}
