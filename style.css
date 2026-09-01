@@ -605,3 +605,46 @@ display:flex;
 .faqs__container {
   margin: 48px 0 0;
 }
+
+
+/*Get Started*/
+
+#get__started {
+  background-color:#6415FF;
+  padding: 80px 0;
+}
+
+.get__started--heading {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  width: 512px;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+}
+
+.two__buttons {
+  margin: 24px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.get__started--button {
+  background-color: #F56565;
+  color: white;
+  font-size: 16px;
+  margin: 0 32px 0 0;
+  padding: 16px 32px;
+  border-radius: 30px;
+}
+
+.get__started--contact {
+  background-color:#6415FF;
+  color: white;
+  font-size: 16px;
+  margin: 0 32px 0 0;
+  padding: 16px 32px;
+  border-radius: 30px;
+}
