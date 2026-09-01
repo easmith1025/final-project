@@ -209,7 +209,7 @@ form:focus-within {
   align-items: center;
   justify-content: center;
   margin: 16px 0 0;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 h2 {
@@ -290,7 +290,7 @@ h2 {
   align-items: flex-start;
   justify-content: left;
   margin: 16px 0 0;
-  font-size: 24px;
+  font-size: 16px;
   color:#6415FF;
 }
 
@@ -399,6 +399,11 @@ display:flex;
   width: 50%;
 }
 
+.value__subheading {
+  font-size: 16px;
+  color:#6415FF;
+}
+
 .value__heading {
   margin: 16px 0 0;
 }
@@ -437,3 +442,105 @@ display:flex;
 .value__img {
   width: 426.98px;
 }
+
+/*Pricing*/
+
+#pricing {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 80px 0 0;
+}
+
+.pricing__subheading {
+  font-size: 16px;
+  color:#6415FF;
+  padding: 40px 0 0;
+}
+
+.three__pricing--plans {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.plan__container {
+  width: calc(100%/3);
+  display: flex;
+  flex-direction: column;
+  margin: 64px 32px 0 0;
+  padding: 8px 32px 0:
+}
+
+.plan__header {
+  padding: 32px 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.plan__name {
+  font-size: 20px;
+}
+
+.plan__price {
+  font-size: 48px;
+  margin: 4px 0px;
+}
+
+.plan__duration {
+  font-size: 16px;
+  color: lightslategray;
+}
+
+.plan__features {
+  margin: 0 32px;
+  padding: 32px;
+}
+
+.plan__features--title {
+  font-size: 20px;
+}
+
+.plan__feature {
+  font-size: 16px;
+  color: lightslategray;
+  margin: 20px 0 0;
+}
+
+.plan__feature--list {
+  font-size: 16px;
+  margin: 20px 0 0; 
+  list-style-type: none;
+}
+
+.plan__action {
+  padding: 32px 64px;
+  align-items: center;
+  display:flex;
+  justify-content: center;
+}
+
+.plan__button--1, .plan__button--2, .plan__button--3 {
+  font-size: 14px;
+  padding: 16px 32px;
+  border-radius: 30px;
+}
+
+.plan__button--1 {
+  background-color: teal;
+  color: white;
+}
+
+.plan__button--2 {
+  background-color:#6415FF;
+  color: white;
+}
+
+.plan__button--3 {
+  background-color: red;
+  color: white;
+}
+
