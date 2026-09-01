@@ -648,3 +648,21 @@ display:flex;
   padding: 16px 32px;
   border-radius: 30px;
 }
+
+/*footer*/
+
+.five__columns{
+  background-color:#6415FF;
+  display: flex;
+  align-items: center;
+  flex-direction: columns;
+  color: white;
+}
+
+.bottom__footer{
+  background-color:#6415FF;
+}
+
+.bottom__footer {
+  color: white;
+}
