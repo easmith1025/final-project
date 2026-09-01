@@ -321,9 +321,62 @@ h2 {
 .right__column {
 align-items: center;
 justify-content: center;
+display:flex;
 }
 
 .quality__img {
   width: 409.48px;
   height: 263.34px;
+}
+
+/*STEPS*/
+
+.step__columns {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 96px 0;
+}
+
+.step__right {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.step__left {
+ justify-content: center;
+ display: flex;
+ align-items: center;
+}
+
+.step__img {
+  width: 409.27px;
+}
+
+.two__column--step {
+  display:flex;
+  margin: 32px 0 0;
+}
+
+.left__step {
+  width: calc(100%/10);
+  font-size: 36px;
+  color: #CBD5E0;
+}
+
+.right__step {
+  margin: 0 0 0 24px;
+}
+
+.step__name {
+  font-size: 20px;
+  color: black;
+}
+
+.step__description {
+  color: #718096;
+  margin: 12px 0 0;
 }
