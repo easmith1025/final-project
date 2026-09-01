@@ -595,3 +595,13 @@ display:flex;
   align-items: center;
   flex-direction: row;
 }
+
+/*FAQ*/
+
+#faq {
+  padding: 80px;
+}
+
+.faqs__container {
+  margin: 48px 0 0;
+}
